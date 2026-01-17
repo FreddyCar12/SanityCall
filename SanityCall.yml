@@ -2,7 +2,7 @@ name: Trigger MacroDroid via ADB
 
 on:
   schedule:
-    - cron: '0 5 * * *'   # 09:00 по Азербайджану (UTC+4)
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 jobs:
